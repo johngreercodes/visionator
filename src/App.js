@@ -1,12 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
 import Vision from './components/Vision'
+import visions from './data/visions'
 
 function App() {
   return (
     <div>
       <p>today's vision is</p>
-      <Vision/>
+      <Vision visions={visions}/>
     </div>
   );
 }

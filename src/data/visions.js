@@ -6,7 +6,7 @@ const visions = [
         {
             key: 1,
             vision: "smiling gets weirder the more you think about it."
-        }.
+        },
         "plase AIR in LUNGS.",
         "Nothing is NORMAL until I don't CRY every time something \"normal\" happens.",
         "READ MORE BOOKS*",
