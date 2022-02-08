@@ -1,6 +1,6 @@
-import React from "react";
+import React from "react"
 
-const Vision = () => {
+const Vision = (props) => {
     return (
         <p>hello</p>
     )

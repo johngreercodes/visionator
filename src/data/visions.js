@@ -1,6 +1,12 @@
 const visions = [
-        "It's weird that all my feelings are made of chemical reations",
-        "smiling gets weirder the more you think about it.",
+        {
+            key: 0,
+            vision: "It's weird that all my feelings are made of chemical reations"
+        },
+        {
+            key: 1,
+            vision: "smiling gets weirder the more you think about it."
+        }.
         "plase AIR in LUNGS.",
         "Nothing is NORMAL until I don't CRY every time something \"normal\" happens.",
         "READ MORE BOOKS*",
