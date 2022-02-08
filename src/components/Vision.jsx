@@ -3,8 +3,15 @@ import React from "react"
 const Vision = (props) => {
     return (
     <div>
-        <p>hello</p>
-        <p>{props.visions[2]}</p>
+        <p>{props.visions[15]}</p>
+        {
+            props.visions.map((vision)=>(
+                <div>
+                    <p>{vision}</p>
+                </div>
+            ))
+        }
+
     </div>
     )
 }

@@ -6,7 +6,7 @@ import visions from './data/visions'
 function App() {
   return (
     <div>
-      <p>today's vision is</p>
+      <p>today's vision:</p>
       <Vision visions={visions}/>
     </div>
   );
