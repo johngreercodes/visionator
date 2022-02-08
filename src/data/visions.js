@@ -1,5 +1,4 @@
-{
-    "visions":[
+const visions = [
         "It's weird that all my feelings are made of chemical reations",
         "smiling gets weirder the more you think about it.",
         "plase AIR in LUNGS.",
@@ -134,4 +133,5 @@
         "Manifest Cats Sequel",
         "Finish Book of Extremely in-depth Yelp reviews"
     ]
-}
+
+export default visions
