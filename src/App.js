@@ -1,12 +1,20 @@
-import logo from './logo.svg';
+import React, { useState, useEffect } from 'react'
 import './App.css';
 import Vision from './components/Vision'
-import visions from './data/visions'
+import quotes from './data/visions'
 
 function App() {
+
+  const [ visions , manageVisions ] = useState(0)
+
+  useEffect( () => {
+    // return visions[Math.floor(Math.random() * visions.length)]
+    manageVisions(quotes[Math.floor(Math.random() * quotes.length)])
+
+  } , [])
+
   return (
     <div>
-      <p>today's vision:</p>
       <Vision visions={visions}/>
     </div>
   );
