@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './App.css';
 import Vision from './components/Vision'
-import quotes from './data/visions'
+import quotes from './data/vision-objects.json'
 
 function App() {
 

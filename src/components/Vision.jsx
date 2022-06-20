@@ -2,12 +2,12 @@ import React from "react"
 
 const Vision = (props) => {
     return (
-    <div>
-        {
-            props.quotes[1]
-        }
-
-    </div>
+        <div>
+            <h1>Today's Vision:</h1>
+            {visions.data.map( (quote) => {
+                <div>quote.vision</div>
+            })}
+        </div> 
     )
 }
 
