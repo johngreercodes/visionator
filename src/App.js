@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Vision visions={visions}/>
+      <Vision quotes={quotes}/>
     </div>
   );
 }

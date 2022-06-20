@@ -4,7 +4,7 @@ const Vision = (props) => {
     return (
     <div>
         {
-            props.quotes
+            props.quotes[1]
         }
 
     </div>
