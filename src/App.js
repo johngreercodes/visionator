@@ -14,6 +14,7 @@ function App() {
   const refreshVision = () => {
     setTodaysVision(visions.data[Math.floor(Math.random() * visions.data.length)].vision)
   }
+  // ^ surely there is a way to not be redundant with useEffect and refreshVision ^
 
   return (
     <div>
