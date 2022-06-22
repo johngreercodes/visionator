@@ -1,16 +1,16 @@
 import React, { useState, useEffect } from 'react'
 import './App.css';
 import Vision from './components/Vision'
-import quotes from './data/vision-objects.json'
+import visions from './data/vision-objects.json'
 
 function App() {
 
-  const [ visions , manageVisions ] = useState(0)
+  const [ todaysVision , setTodaysVision ] = useState()
 
   useEffect( () => {
-    // return visions[Math.floor(Math.random() * visions.length)]
-    manageVisions(quotes[Math.floor(Math.random() * quotes.length)])
-
+    // return visions[Math.floor(Math.random() * visions.data.length)]
+    setTodaysVision(visions.data[Math.floor(Math.random() * visions.data.length)].vision)
+    console.log(todaysVision)
   } , [])
 
   return (
