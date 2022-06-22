@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Vision name={todaysVision}/>
+      <Vision booger={todaysVision}/>
     </div>
   );
 }

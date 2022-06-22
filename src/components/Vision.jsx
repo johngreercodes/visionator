@@ -5,7 +5,7 @@ const Vision = (props) => {
     return (
         <div>
             <h1>Hello</h1>
-            <p>{props.name}</p>
+            <p>{props.booger}</p>
         </div> 
     )
 }
