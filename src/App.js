@@ -8,14 +8,17 @@ function App() {
   const [ todaysVision , setTodaysVision ] = useState()
 
   useEffect( () => {
-    // return visions[Math.floor(Math.random() * visions.data.length)]
     setTodaysVision(visions.data[Math.floor(Math.random() * visions.data.length)].vision)
-    console.log(todaysVision)
   } , [])
+
+  const consoleHi = () => {
+    console.log('hi')
+  }
 
   return (
     <div>
       <Vision booger={todaysVision}/>
+      <button onClick={consoleHi} type="button">Refresh</button>
     </div>
   );
 }
