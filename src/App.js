@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div>
-      <Vision name="John"/>
+      <Vision name={todaysVision}/>
     </div>
   );
 }
