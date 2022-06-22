@@ -11,14 +11,14 @@ function App() {
     setTodaysVision(visions.data[Math.floor(Math.random() * visions.data.length)].vision)
   } , [])
 
-  const consoleHi = () => {
-    console.log('hi')
+  const refreshVision = () => {
+    setTodaysVision(visions.data[Math.floor(Math.random() * visions.data.length)].vision)
   }
 
   return (
     <div>
       <Vision booger={todaysVision}/>
-      <button onClick={consoleHi} type="button">Refresh</button>
+      <button onClick={refreshVision} type="button">Refresh</button>
     </div>
   );
 }
